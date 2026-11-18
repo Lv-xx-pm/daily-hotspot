@@ -81,7 +81,7 @@ def overseas(name, home, pattern):
             continue
         title = meta(d, "og:title", "twitter:title") or re.sub(r"\s+", " ", (re.findall(r"<title[^>]*>(.*?)</title>", d, re.S) or [""])[0])
         syn = meta(d, "og:description", "description", "twitter:description")
-        out.append({"platform": name, "board": f"首页推荐第{i}位", "title": title.strip(), "heat": "", "genre": "",
+        out.append({"platform": name, "board": f"首页推荐第{i}位", "title": title.replace("\xa0", " ").strip(), "heat": "", "genre": "",
                     "lang": "en", "synopsis": syn, "url": url})
         time.sleep(0.5)
     return out

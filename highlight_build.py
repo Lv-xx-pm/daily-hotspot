@@ -126,8 +126,8 @@ if __name__ == '__main__':
                       "heat": x['heat'], "genre": x['genre'], "url": x['url'], "highlight": HL[key], "hook": hook,
                       "conflict": conflict, "route": route, "hook_type": ht, "video30": v30, "adapt": ad})
     for plat, key, cn, hl, hook, conflict, route, ht, v30, ad in OV:
-        x = next(o for o in ov_pool if o['platform'] == plat and key.lower() in o['title'].lower())
-        title = x['title'].split(' full movie')[0].split(' Drama & Movie')[0].replace('Episode 1 - ', '').split(' | ')[0].strip()
+        x = next(o for o in ov_pool if o['platform'] == plat and key.lower() in o['title'].replace('\xa0', ' ').lower())
+        title = x['title'].replace('\xa0', ' ').split(' full movie')[0].split(' Drama & Movie')[0].replace('Episode 1 - ', '').split(' | ')[0].strip()
         items.append({"platform": plat, "title": title, "title_cn": cn, "board": x['board'], "heat": "", "genre": "海外",
                       "url": x['url'], "highlight": hl, "hook": hook, "conflict": conflict, "route": route,
                       "hook_type": ht, "video30": v30, "adapt": ad})
