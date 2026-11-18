@@ -42,16 +42,15 @@ main{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:
 .v30{font-size:12px;color:#33507a;background:#f1f6fd;border-radius:6px;padding:6px 9px}
 .foot{margin-top:auto;font-size:12px;display:flex;justify-content:flex-end}.foot a{color:#2E6DB4;text-decoration:none}
 footer{text-align:center;color:#8a94a3;font-size:12px;padding:20px;line-height:1.7}</style></head><body>
-<header><h1>短剧钩子库</h1><p>每天抓取红果短剧官网公开榜单(真人剧、AI剧、漫剧、总榜),逐部判断有没有冲突点、能不能拍成 30 秒前贴,通过的整理成钩子卡。<br>“前贴钩子”和“核心冲突”是我们自己写的分析与创作参考,不是原剧台词;“适配度”是判断,不是投放数据。</p></header>
+<header><h1>短剧钩子库</h1></header>
 <div class="bar"><select id="d"></select><input id="q" placeholder="搜索剧名或钩子"><span id="cats"></span></div>
-<div class="wrap"><div class="stats" id="stats"></div><main id="list"></main></div>
+<div class="wrap"><main id="list"></main></div>
 <footer>数据来源:红果短剧官网公开榜单。剧名与链接归原平台所有,点击“官网查看”可看原剧。</footer>
 <script>const D=__DATA__;let cat="全部";const $=i=>document.getElementById(i);
 const ds=Object.keys(D).sort().reverse();$("d").innerHTML=ds.map(x=>`<option>${x}</option>`).join("");
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function bars(title,arr){const m=Math.max(...arr.map(a=>a[1]));return `<div class="box"><h3>${title}</h3>`+arr.map(([k,v])=>`<div class="row"><span>${esc(k)}</span><i style="width:${Math.round(v/m*120)}px"></i><b>${v}</b></div>`).join("")+`</div>`}
 function draw(){const day=D[$("d").value],it=day.items,st=day.stats,q=$("q").value.trim();
-$("stats").innerHTML=`<div class="box"><h3>今日筛选</h3><div class="big">${st.kept} / ${st.scanned}</div><div class="sub">扫描榜单上 ${st.scanned} 部剧,有冲突点且适合 30 秒前贴的 ${st.kept} 部入库。</div></div>`+bars("最常见的创作路线",st.route.slice(0,7))+bars("最常见的钩子类型",st.hook_type)+bars("最常见的题材",st.genre);
 const cs=["全部",...new Set(it.map(x=>x.route))];
 $("cats").innerHTML=cs.map(c=>`<span class="chip ${c==cat?"on":""}" onclick="cat='${c}';draw()">${c}</span>`).join(" ");
 $("list").innerHTML=it.filter(x=>(cat=="全部"||x.route==cat)&&(!q||x.hook.includes(q)||x.title.includes(q))).map(x=>
