@@ -48,6 +48,7 @@ footer{text-align:center;color:#8a94a3;font-size:12px;padding:20px;line-height:1
 <footer>数据来源:红果短剧官网公开榜单。剧名与链接归原平台所有,点击“官网查看”可看原剧。</footer>
 <script>const D=__DATA__;let cat="全部";const $=i=>document.getElementById(i);
 const ds=Object.keys(D).sort().reverse();$("d").innerHTML=ds.map(x=>`<option>${x}</option>`).join("");
+function pl(x){return x.platform=="红果短剧"?"红果短剧":"海外短剧"}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function bars(title,arr){const m=Math.max(...arr.map(a=>a[1]));return `<div class="box"><h3>${title}</h3>`+arr.map(([k,v])=>`<div class="row"><span>${esc(k)}</span><i style="width:${Math.round(v/m*120)}px"></i><b>${v}</b></div>`).join("")+`</div>`}
 function draw(){const day=D[$("d").value],it=day.items,st=day.stats,q=$("q").value.trim();
