@@ -1,3 +1,8 @@
+"""写法规则(每日更新必读):
+1. 国外来源(TMZ、The Daily Beast、Drudge Report、Bored Panda)的英文标题必须翻译成中文,钩子和事件描述全部用中文,不得出现英文原句。
+2. 来源名称统一用中文显示:TMZ=美国娱乐媒体,Bored Panda=国外趣闻网站,The Daily Beast=美国新闻网站,Drudge Report=美国新闻聚合站。
+3. 钩子和事件描述不含真实人名、公司品牌名、具体地名。
+"""
 import json,glob
 raw=json.load(open(sorted(glob.glob('raw/*.json'))[-1],encoding='utf8'))
 S={s['name']:s['items'] for s in raw['sources']}
@@ -59,7 +64,7 @@ assert len(P)==50,len(P)
 order={"高":0,"中":1,"低":2}
 items=[]
 for s,k,h,e,t,em,cf,ad,cp in P:
-    it=S[K[s]][k]; items.append({"hook":h,"event":e,"type":t,"emotion":em,"conflict":cf,"adapt":ad,"compliance":cp,"source":K[s].replace("今日热榜·","榜单·"),"url":it["url"]})
+    it=S[K[s]][k]; items.append({"hook":h,"event":e,"type":t,"emotion":em,"conflict":cf,"adapt":ad,"compliance":cp,"source":{'TMZ':'美国娱乐媒体','Bored Panda':'国外趣闻网站'}.get(K[s],K[s]).replace("今日热榜·","榜单·"),"url":it["url"]})
 items.sort(key=lambda x:order[x["adapt"]])
 for i,x in enumerate(items,1): x["rank"]=i
 json.dump({"date":raw["date"],"items":items},open(f"data/{raw['date']}.json","w",encoding="utf8"),ensure_ascii=False,indent=1)
