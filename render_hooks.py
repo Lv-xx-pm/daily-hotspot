@@ -17,7 +17,7 @@ for f in sorted(glob.glob(str(B / "data/hooks-*.json"))):
     }
     days[d["date"]] = {"items": its, "stats": stats}
 
-html = r'''<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+html = r'''<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>短剧钩子库</title><style>
 body{font-family:-apple-system,"PingFang SC",sans-serif;margin:0;background:#fff;color:#222}
 header{background:#fff;color:#1f2937;padding:18px 24px 6px}h1{margin:0;font-size:20px}header p{margin:6px 0 0;opacity:.88;font-size:13px;line-height:1.6}

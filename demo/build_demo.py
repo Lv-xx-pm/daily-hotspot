@@ -22,7 +22,7 @@ names = {"P-A": "分析原片", "P-H1": "钩子库·单条整理", "P-H2": "钩�
 
 DATA = {"samples": SAMPLES, "colors": ROLE_COLORS, "prompts": prompts, "pnames": names}
 
-HTML = r'''<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+HTML = r'''<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI前贴 · 原型演示</title><style>
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#fff;color:#1f2937;font-size:14px}
 .top{display:flex;align-items:center;gap:28px;padding:0 32px;height:58px;border-bottom:1px solid #eef0f4;position:sticky;top:0;background:#fff;z-index:5}
