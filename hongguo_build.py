@@ -21,18 +21,11 @@
 """
 import json, glob
 
-raw = json.load(open(sorted(glob.glob('raw/hongguo-*.json'))[-1], encoding='utf8'))
-pool = {}
-for L in raw['lists']:
-    for x in L['items']:
-        pool.setdefault(x['title'], dict(x, list=L['name']))
-
-
 def norm(t):
     return t.replace('，', ',').replace('：', ':').replace('！', '!').strip()
 
 
-def find(key):
+def find(key, pool):
     exact = key.endswith('|')
     k = norm(key.rstrip('|'))
     for t, x in pool.items():
@@ -90,18 +83,26 @@ P = [
 ("搭讪之王", "他不再卑微讨好她,一个系统却在耳边响起:真诚搭讪,奖励到账", "学生摆脱讨好型恋爱,获得搭讪系统", "剧情-猎奇设定", "猎奇/爽点", "勉强:系统设定需要交代", "低"),
 ]
 
-order = {"高": 0, "中": 1, "低": 2}
-items = []
-for key, hook, conflict, route, ht, v30, ad in P:
-    x = find(key)
-    items.append({"title": x['title'], "list": x['list'] + "榜", "list_rank": x['rank'], "heat": x['heat'], "genre": x['genre'],
-                  "url": x['url'], "hook": hook, "conflict": conflict, "route": route, "hook_type": ht,
-                  "video30": v30, "adapt": ad})
-assert len({i['title'] for i in items}) == len(items), '有重复剧'
-items.sort(key=lambda i: (order[i['adapt']], -float(i['heat'].replace('万热度', '') or 0)))
-for i, x in enumerate(items, 1):
-    x['rank'] = i
-total = len(pool)
-json.dump({"date": raw['date'], "scanned": total, "items": items},
-          open(f"data/hooks-{raw['date']}.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
-print(f"扫描 {total} 部,入库 {len(items)} 部")
+if __name__ == '__main__':
+    raw = json.load(open(sorted(glob.glob('raw/hongguo-*.json'))[-1], encoding='utf8'))
+    pool = {}
+    for L in raw['lists']:
+        for x in L['items']:
+            pool.setdefault(x['title'], dict(x, list=L['name']))
+
+
+    order = {"高": 0, "中": 1, "低": 2}
+    items = []
+    for key, hook, conflict, route, ht, v30, ad in P:
+        x = find(key, pool)
+        items.append({"title": x['title'], "list": x['list'] + "榜", "list_rank": x['rank'], "heat": x['heat'], "genre": x['genre'],
+                      "url": x['url'], "hook": hook, "conflict": conflict, "route": route, "hook_type": ht,
+                      "video30": v30, "adapt": ad})
+    assert len({i['title'] for i in items}) == len(items), '有重复剧'
+    items.sort(key=lambda i: (order[i['adapt']], -float(i['heat'].replace('万热度', '') or 0)))
+    for i, x in enumerate(items, 1):
+        x['rank'] = i
+    total = len(pool)
+    json.dump({"date": raw['date'], "scanned": total, "items": items},
+              open(f"data/hooks-{raw['date']}.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
+    print(f"扫描 {total} 部,入库 {len(items)} 部")
