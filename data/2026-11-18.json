@@ -1,0 +1,455 @@
+{
+ "date": "2026-11-18",
+ "items": [
+  {
+   "rank": 1,
+   "title": "黄仁勋事件，美国政府突然回过味来",
+   "source": "凤凰网",
+   "category": "科技",
+   "summary": "科技圈人物与美国政府的纠葛,争议性强,多平台同步发酵",
+   "teaser_fit": "高",
+   "url": "https://news.ifeng.com/c/8y95PZrEwaQ"
+  },
+  {
+   "rank": 2,
+   "title": "美媒曝伊朗拟在华盛顿发动脏弹袭击，白宫回应",
+   "source": "凤凰网",
+   "category": "国际",
+   "summary": "美媒爆料伊朗拟袭击,白宫已回应,真实性待核",
+   "teaser_fit": "中",
+   "url": "https://original.ifeng.com/c/8y9OKf3GnDz"
+  },
+  {
+   "rank": 3,
+   "title": "美国多行业接连宕机，特朗普不以为然：这就是生活，有啥大不了",
+   "source": "凤凰网",
+   "category": "国际",
+   "summary": "美国多行业接连宕机,总统一句话引发讨论",
+   "teaser_fit": "中",
+   "url": "https://news.ifeng.com/c/8y9PQUXKldb"
+  },
+  {
+   "rank": 4,
+   "title": "脱欧公投十年，英国首相说“亏了”",
+   "source": "凤凰网",
+   "category": "国际",
+   "summary": "脱欧十年,首相公开称“亏了”",
+   "teaser_fit": "低",
+   "url": "https://news.ifeng.com/c/8y9B7gsgixK"
+  },
+  {
+   "rank": 5,
+   "title": "法国抗议持续第5周，“黄背心”号召再来一次",
+   "source": "凤凰网",
+   "category": "国际",
+   "summary": "法国抗议持续第五周",
+   "teaser_fit": "低",
+   "url": "https://original.ifeng.com/c/8y9Gfi03TbO"
+  },
+  {
+   "rank": 6,
+   "title": "俄罗斯总统普京抵达深圳 蔡奇前往机场迎接",
+   "source": "新浪网",
+   "category": "时政",
+   "summary": "APEC 期间多国元首抵达深圳",
+   "teaser_fit": "低",
+   "url": "https://finance.sina.com.cn/wm/2026-11-18/doc-inizayrr1788820.shtml"
+  },
+  {
+   "rank": 7,
+   "title": "深圳机场一眼望去全是专机 79万",
+   "source": "榜单·微博",
+   "category": "社会",
+   "summary": "深圳机场专机云集,画面感强",
+   "teaser_fit": "中",
+   "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E6%9C%BA%E5%9C%BA%E4%B8%80%E7%9C%BC%E6%9C%9B%E5%8E%BB%E5%85%A8%E6%98%AF%E4%B8%93%E6%9C%BA"
+  },
+  {
+   "rank": 8,
+   "title": "文莱领导人握手中方安保1秒摘手套 64万",
+   "source": "榜单·微博",
+   "category": "时政",
+   "summary": "握手时安保一秒摘手套的细节引发热议",
+   "teaser_fit": "中",
+   "url": "https://s.weibo.com/weibo?q=%E6%96%87%E8%8E%B1%E9%A2%86%E5%AF%BC%E4%BA%BA%E6%8F%A1%E6%89%8B%E4%B8%AD%E6%96%B9%E5%AE%89%E4%BF%9D1%E7%A7%92%E6%91%98%E6%89%8B%E5%A5%97"
+  },
+  {
+   "rank": 9,
+   "title": "APEC 106万",
+   "source": "榜单·微博",
+   "category": "时政",
+   "summary": "APEC 微博热度第一",
+   "teaser_fit": "低",
+   "url": "https://s.weibo.com/weibo?q=APEC"
+  },
+  {
+   "rank": 10,
+   "title": "中俄美三国元首历史上首次面对面会晤，有哪些意义？为何会选在这个时间点？ 1293 万热度",
+   "source": "榜单·知乎",
+   "category": "时政",
+   "summary": "三国元首同场,知乎讨论量最高",
+   "teaser_fit": "低",
+   "url": "https://www.zhihu.com/question/2105702944855287688"
+  },
+  {
+   "rank": 11,
+   "title": "女子在盒马下单四百多次全部申请仅退款，称「刺激解压」，明知不光彩还是忍不住下单，如何从心理学角度解读？ 349 万热度",
+   "source": "榜单·知乎",
+   "category": "社会",
+   "summary": "反常行为加心理学解读,适合做反转或共鸣类前贴",
+   "teaser_fit": "高",
+   "url": "https://www.zhihu.com/question/2106047811234030236"
+  },
+  {
+   "rank": 12,
+   "title": "曝《GTA6》PC 版将于 2027 年第一季度发售，为何 R 星双平台间隔会进一步缩短？ 326 万热度",
+   "source": "榜单·知乎",
+   "category": "游戏",
+   "summary": "GTA6 PC 版发售时间传闻",
+   "teaser_fit": "中",
+   "url": "https://www.zhihu.com/question/2093489092713526519"
+  },
+  {
+   "rank": 13,
+   "title": "APEC 工商领导人峰会开始，曾毓群、李彦宏、王兴兴、王传福、雷军、董明珠等参会，有哪些看点值得关注？ 264 万热度",
+   "source": "榜单·知乎",
+   "category": "财经",
+   "summary": "多位企业家参加 APEC 工商峰会",
+   "teaser_fit": "低",
+   "url": "https://www.zhihu.com/question/2105984976449527824"
+  },
+  {
+   "rank": 14,
+   "title": "网传生菜「塌房」了，看似健康其实膳食纤维的含量很低，是真的吗？ 212 万热度",
+   "source": "榜单·知乎",
+   "category": "生活",
+   "summary": "常见食物“塌房”,颠覆认知类话题",
+   "teaser_fit": "中",
+   "url": "https://www.zhihu.com/question/2105731473911146426"
+  },
+  {
+   "rank": 15,
+   "title": "劝表弟读博，他说现在的博士已经不是前几年了，真是这样吗？ 200 万热度",
+   "source": "榜单·知乎",
+   "category": "职场",
+   "summary": "读博是否值得,年轻人共鸣强",
+   "teaser_fit": "高",
+   "url": "https://www.zhihu.com/question/2104959116976329045"
+  },
+  {
+   "rank": 16,
+   "title": "工信部严抓 60 天账期落地，17 家车企被要求定期报送数据，该举措对保障供应链回款作用有多大？ 200 万热度",
+   "source": "榜单·知乎",
+   "category": "财经",
+   "summary": "工信部要求车企 60 天账期",
+   "teaser_fit": "低",
+   "url": "https://www.zhihu.com/question/2105764026307306180"
+  },
+  {
+   "rank": 17,
+   "title": "为什么鲁智深要在圆寂时说：钱塘江上潮信来，今日方知我是我？ 189 万热度",
+   "source": "榜单·知乎",
+   "category": "文化",
+   "summary": "《水浒》鲁智深圆寂台词解读",
+   "teaser_fit": "中",
+   "url": "https://www.zhihu.com/question/11113487761"
+  },
+  {
+   "rank": 18,
+   "title": "苹果最终确认！向每位用户最高赔 637 元 10.0万",
+   "source": "榜单·微信",
+   "category": "科技",
+   "summary": "苹果确认向用户最高赔偿 637 元",
+   "teaser_fit": "中",
+   "url": "https://mp.weixin.qq.com/s?__biz=MzIxNjQzNTM5Mw==&mid=2247507218&idx=1&sn=b5ddaa09e4995ef5b014061de1bb5613#rd"
+  },
+  {
+   "rank": 19,
+   "title": "41岁薇娅官宣二胎得子，一家四口同框太温馨 10.0万",
+   "source": "榜单·微信",
+   "category": "娱乐",
+   "summary": "薇娅官宣二胎",
+   "teaser_fit": "中",
+   "url": "https://mp.weixin.qq.com/s?__biz=MzkzMjY4OTk4NQ==&mid=2247489460&idx=1&sn=430287701f87e9ff30885fc47ac39d3b#rd"
+  },
+  {
+   "rank": 20,
+   "title": "83年，43岁，钱难挣，新的攀比风已经出现了 10.0万",
+   "source": "榜单·微信",
+   "category": "社会",
+   "summary": "同龄人攀比与赚钱压力,中年共鸣",
+   "teaser_fit": "高",
+   "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDA5ODg5NQ==&mid=2449662392&idx=1&sn=2ddae15ab4851c126142e9fc95397618#rd"
+  },
+  {
+   "rank": 21,
+   "title": "国台办回应“台湾孩子不认识孙中山” 752.4万",
+   "source": "榜单·百度",
+   "category": "时政",
+   "summary": "国台办回应相关话题",
+   "teaser_fit": "低",
+   "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%8F%B0%E5%8A%9E%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%B0%E6%B9%BE%E5%AD%A9%E5%AD%90%E4%B8%8D%E8%AE%A4%E8%AF%86%E5%AD%99%E4%B8%AD%E5%B1%B1%E2%80%9D"
+  },
+  {
+   "rank": 22,
+   "title": "博主回村拍老人涨粉400万 742.4万",
+   "source": "榜单·百度",
+   "category": "社会",
+   "summary": "博主回村拍老人涨粉,温情加反差",
+   "teaser_fit": "高",
+   "url": "https://www.baidu.com/s?wd=%E5%8D%9A%E4%B8%BB%E5%9B%9E%E6%9D%91%E6%8B%8D%E8%80%81%E4%BA%BA%E6%B6%A8%E7%B2%89400%E4%B8%87"
+  },
+  {
+   "rank": 23,
+   "title": "28岁男子抱着刚出生亲弟弟笑不出来 733.0万",
+   "source": "榜单·百度",
+   "category": "社会",
+   "summary": "年龄差极大的兄弟,人物关系有戏剧张力",
+   "teaser_fit": "高",
+   "url": "https://www.baidu.com/s?wd=28%E5%B2%81%E7%94%B7%E5%AD%90%E6%8A%B1%E7%9D%80%E5%88%9A%E5%87%BA%E7%94%9F%E4%BA%B2%E5%BC%9F%E5%BC%9F%E7%AC%91%E4%B8%8D%E5%87%BA%E6%9D%A5"
+  },
+  {
+   "rank": 24,
+   "title": "网红“豹警官”胖回原形 714.4万",
+   "source": "榜单·百度",
+   "category": "娱乐",
+   "summary": "网红“豹警官”前后对比",
+   "teaser_fit": "中",
+   "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E2%80%9C%E8%B1%B9%E8%AD%A6%E5%AE%98%E2%80%9D%E8%83%96%E5%9B%9E%E5%8E%9F%E5%BD%A2"
+  },
+  {
+   "rank": 25,
+   "title": "【2026全球总决赛】11月15日 GEN vs BLG 2895.9万",
+   "source": "榜单·哔哩哔哩",
+   "category": "电竞",
+   "summary": "全球总决赛 GEN vs BLG",
+   "teaser_fit": "中",
+   "url": "https://www.bilibili.com/video/av117616622439632/"
+  },
+  {
+   "rank": 26,
+   "title": "BLG S16夺冠赞歌《仰望星空》 345.9万",
+   "source": "榜单·哔哩哔哩",
+   "category": "电竞",
+   "summary": "BLG 夺冠相关内容",
+   "teaser_fit": "中",
+   "url": "https://www.bilibili.com/video/av117617679402991/"
+  },
+  {
+   "rank": 27,
+   "title": "“46块3，问清一条规则。” 493.0万",
+   "source": "榜单·哔哩哔哩",
+   "category": "社会",
+   "summary": "一句话规则引发争议,适合冲突类开场",
+   "teaser_fit": "高",
+   "url": "https://www.bilibili.com/video/av117616639220696/"
+  },
+  {
+   "rank": 28,
+   "title": "小琼摇AI手势舞 1144.7万",
+   "source": "榜单·快手",
+   "category": "科技",
+   "summary": "AI 手势舞传播",
+   "teaser_fit": "中",
+   "url": "https://index.e.kuaishou.com/rank/hotDetail?keyword=%E5%B0%8F%E7%90%BC%E6%91%87AI%E6%89%8B%E5%8A%BF%E8%88%9E&rankType=1"
+  },
+  {
+   "rank": 29,
+   "title": "哈尔滨冰雪大世界又放大招了 1082.4万",
+   "source": "榜单·快手",
+   "category": "旅游",
+   "summary": "哈尔滨冰雪大世界新玩法",
+   "teaser_fit": "低",
+   "url": "https://index.e.kuaishou.com/rank/hotDetail?keyword=%E5%93%88%E5%B0%94%E6%BB%A8%E5%86%B0%E9%9B%AA%E5%A4%A7%E4%B8%96%E7%95%8C%E5%8F%88%E6%94%BE%E5%A4%A7%E6%8B%9B%E4%BA%86&rankType=1"
+  },
+  {
+   "rank": 30,
+   "title": "我国超算蝉联全球第一 1121.3万",
+   "source": "榜单·快手",
+   "category": "科技",
+   "summary": "我国超算蝉联全球第一",
+   "teaser_fit": "低",
+   "url": "https://index.e.kuaishou.com/rank/hotDetail?keyword=%E6%88%91%E5%9B%BD%E8%B6%85%E7%AE%97%E8%9D%89%E8%81%94%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80&rankType=1"
+  },
+  {
+   "rank": 31,
+   "title": "《麦穗与羊》原稿传递 151.6W实时讨论",
+   "source": "榜单·百度贴吧",
+   "category": "文化",
+   "summary": "《麦穗与羊》原稿传递,贴吧讨论量第一,情感类",
+   "teaser_fit": "高",
+   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369865&topic_name=%E3%80%8A%E9%BA%A6%E7%A9%97%E4%B8%8E%E7%BE%8A%E3%80%8B%E5%8E%9F%E7%A8%BF%E4%BC%A0%E9%80%92"
+  },
+  {
+   "rank": 32,
+   "title": "GTA6发售吧友坐等直播 111.1W实时讨论",
+   "source": "榜单·百度贴吧",
+   "category": "游戏",
+   "summary": "GTA6 发售话题",
+   "teaser_fit": "中",
+   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369923&topic_name=GTA6%E5%8F%91%E5%94%AE%E5%90%A7%E5%8F%8B%E5%9D%90%E7%AD%89%E7%9B%B4%E6%92%AD"
+  },
+  {
+   "rank": 33,
+   "title": "黄仁勋喊话愿回英伟达 41.9W实时讨论",
+   "source": "榜单·百度贴吧",
+   "category": "科技",
+   "summary": "黄仁勋喊话愿回英伟达,与“创始人被请回”类创作路线契合",
+   "teaser_fit": "高",
+   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369927&topic_name=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%96%8A%E8%AF%9D%E6%84%BF%E5%9B%9E%E8%8B%B1%E4%BC%9F%E8%BE%BE"
+  },
+  {
+   "rank": 34,
+   "title": "影之刃零入围TGA年度游戏 51.2W实时讨论",
+   "source": "榜单·百度贴吧",
+   "category": "游戏",
+   "summary": "《影之刃零》入围 TGA 年度游戏",
+   "teaser_fit": "低",
+   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369926&topic_name=%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E5%85%A5%E5%9B%B4TGA%E5%B9%B4%E5%BA%A6%E6%B8%B8%E6%88%8F"
+  },
+  {
+   "rank": 35,
+   "title": "写给我的17岁 32.6W实时讨论",
+   "source": "榜单·百度贴吧",
+   "category": "社会",
+   "summary": "灯光秀写“爸爸我爱你”被判违规",
+   "teaser_fit": "中",
+   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369877&topic_name=%E5%86%99%E7%BB%99%E6%88%91%E7%9A%8417%E5%B2%81"
+  },
+  {
+   "rank": 36,
+   "title": "21家“幽灵公司”骗走银行上亿元，银行风控存在哪些漏洞？为何没能识别出来？ 之乎者也小鱼儿",
+   "source": "榜单·腾讯新闻",
+   "category": "财经",
+   "summary": "21 家“幽灵公司”骗走银行上亿元",
+   "teaser_fit": "中",
+   "url": "https://new.qq.com/rain/a/20261117Q03FN600"
+  },
+  {
+   "rank": 37,
+   "title": "48岁女律师在律所办案时突发脑溢血离世，为何无法认定工亡？与律所仅劳务关系为何成律师行业普遍现象？ 本来就是个局外人",
+   "source": "榜单·腾讯新闻",
+   "category": "社会",
+   "summary": "律师在律所办案时突发脑溢血,为何无法认定工亡",
+   "teaser_fit": "高",
+   "url": "https://new.qq.com/rain/a/20261117Q00APA00"
+  },
+  {
+   "rank": 38,
+   "title": "阿尔茨海默病口服药迎关键突破，其长期被称为“制药行业死亡谷”，这项药物研发有多难？离真正上市还差几步？ 江神",
+   "source": "榜单·腾讯新闻",
+   "category": "科技",
+   "summary": "阿尔茨海默病口服药取得关键突破",
+   "teaser_fit": "低",
+   "url": "https://new.qq.com/rain/a/20261117Q0DTRQ00"
+  },
+  {
+   "rank": 39,
+   "title": "美国最重要情报机构突发故障，多部门接连发生重大技术故障只是巧合吗？可能带来哪些后续影响？ 之乎者也小鱼儿",
+   "source": "榜单·腾讯新闻",
+   "category": "国际",
+   "summary": "美国重要情报机构突发故障",
+   "teaser_fit": "中",
+   "url": "https://new.qq.com/rain/a/20261118Q05XLF00"
+  },
+  {
+   "rank": 40,
+   "title": "“人类飞得最远的探测器”历经49年将抵达1光日，地球是怎么收到它的信号？它在失联前还能帮我们解开哪些星际谜题？ 溯流Pi",
+   "source": "榜单·腾讯新闻",
+   "category": "科技",
+   "summary": "旅行者 1 号即将抵达 1 光日",
+   "teaser_fit": "中",
+   "url": "https://new.qq.com/rain/a/20261118Q09VSA00"
+  },
+  {
+   "rank": 41,
+   "title": "捷克首都发生列车相撞事故 40余人受伤",
+   "source": "搜狐网",
+   "category": "国际",
+   "summary": "捷克首都列车相撞,40 余人受伤",
+   "teaser_fit": "低",
+   "url": "https://www.sohu.com/a/1102971352_99985316?edtsign=A9B9C228FA26C6BEFA948EF6E2D894F65B2B1BA9&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.283_14-200000.0.0-0-0-0-0."
+  },
+  {
+   "rank": 42,
+   "title": "太原致命火灾：隐患、累债与富豪",
+   "source": "搜狐网",
+   "category": "社会",
+   "summary": "太原致命火灾:隐患、累债与富豪",
+   "teaser_fit": "中",
+   "url": "https://www.sohu.com/a/1103139368_313745?edtsign=8FFF0C66CC832700CE410219D91B5C0DBB0E637E&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.283_14-200000.0.0-0-0-0-0."
+  },
+  {
+   "rank": 43,
+   "title": "AI短剧《持械入宋》热播 行业有何变化",
+   "source": "搜狐网",
+   "category": "短剧",
+   "summary": "AI 短剧《持械入宋》热播,与本业直接相关",
+   "teaser_fit": "高",
+   "url": "https://www.sohu.com/a/1102983937_260616?edtsign=8DBDCE0BEC6D9A77B150D23A2D3C5DDF933BEBE3&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.283_14-200000.0.0-0-0-0-0."
+  },
+  {
+   "rank": 44,
+   "title": "AI行业里 被高薪叙事平均掉的人",
+   "source": "搜狐网",
+   "category": "职场",
+   "summary": "AI 行业被高薪叙事平均掉的人",
+   "teaser_fit": "中",
+   "url": "https://www.sohu.com/a/1103036979_313745?edtsign=3A1662D45A4023D552D5805D3AE6BE206F6CA644&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.283_14-200000.0.0-0-0-0-0."
+  },
+  {
+   "rank": 45,
+   "title": "OpenAI发布GPT-6.2",
+   "source": "新浪网",
+   "category": "科技",
+   "summary": "OpenAI 发布 GPT-6.2",
+   "teaser_fit": "中",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-11-18/doc-inizayrp4995463.shtml"
+  },
+  {
+   "rank": 46,
+   "title": "库里：受膝盖伤病影响 NBA生涯临近尾声",
+   "source": "搜狐网",
+   "category": "体育",
+   "summary": "库里称伤病使职业生涯临近尾声",
+   "teaser_fit": "低",
+   "url": "https://www.sohu.com/a/1102975834_458722?edtsign=B0BACB6584F5833650508654CF8EF26F005300FF&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.283_14-200000.0.0-0-0-0-0."
+  },
+  {
+   "rank": 47,
+   "title": "Heidi Gardner's Late Boyfriend Ray Tintori Recorded Podcast Days Before Death",
+   "source": "TMZ",
+   "category": "娱乐",
+   "summary": "艺人男友离世后的相关录音",
+   "teaser_fit": "中",
+   "url": "https://www.tmz.com/2026/11/17/ray-tintori-recorded-podcast-before-death/"
+  },
+  {
+   "rank": 48,
+   "title": "Kim Zolciak's Son KJ Biermann Faced 16 Alleged Sex Offenses in Prior Case",
+   "source": "TMZ",
+   "category": "娱乐",
+   "summary": "真人秀名人之子被指控",
+   "teaser_fit": "中",
+   "url": "https://www.tmz.com/2026/11/17/kj-biermann-prosecutors-reveal-16-alleged-sex-offenses-child-molestation/"
+  },
+  {
+   "rank": 49,
+   "title": "'The Simpsons' Predicted a Global Blackout Would Happen Today",
+   "source": "TMZ",
+   "category": "娱乐",
+   "summary": "《辛普森一家》“预言”全球停电",
+   "teaser_fit": "中",
+   "url": "https://www.tmz.com/2026/11/17/the-simpsons-predicted-global-blackout/"
+  },
+  {
+   "rank": 50,
+   "title": "9 Fake Star Bodies In Hollywood Movies That Totally Tricked Fans",
+   "source": "Bored Panda",
+   "category": "娱乐",
+   "summary": "好莱坞电影里的“假明星身材”盘点",
+   "teaser_fit": "中",
+   "url": "https://www.boredpanda.com/fake-star-bodies-hollywood-movies/"
+  }
+ ]
+}
