@@ -5,16 +5,17 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 BASE = Path(__file__).parent
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-SITES = [("新浪网","https://www.sina.com.cn","国内"),("凤凰网","https://www.ifeng.com","国内"),
- ("搜狐网","https://www.sohu.com","国内"),("网易新闻","https://www.163.com","国内"),
- ("腾讯新闻","https://news.qq.com","国内"),("TMZ","https://www.tmz.com","海外"),
- ("The Daily Beast","https://www.thedailybeast.com","海外"),("Drudge Report","https://www.drudgereport.com","海外"),
- ("Bored Panda","https://www.boredpanda.com","海外")]
+SITES = [("新浪娱乐","https://ent.sina.com.cn","国内"),("中娱网","http://www.yule.com.cn","国内"),
+ ("网易娱乐","https://ent.163.com","国内"),("腾讯娱乐","https://ent.qq.com","国内"),
+ ("今日头条","https://www.toutiao.com","国内"),("TMZ","https://www.tmz.com","海外"),
+ ("Radar Online","https://radaronline.com","海外"),("Bored Panda","https://www.boredpanda.com","海外"),
+ ("E! News","https://www.eonline.com","海外")]
 TOPHUB = ["微博","知乎","微信","百度","抖音","快手","哔哩哔哩","百度贴吧","腾讯新闻","豆瓣电影","百度视频","实时榜中榜"]
 def get(u):
     r = urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"})
     return urllib.request.urlopen(r, timeout=25).read()
 def generic(name, url, region):
+    if name=='今日头条': return toutiao()
     s = BeautifulSoup(get(url), "lxml"); seen=set(); out=[]
     minlen = 8 if region=="国内" else 20
     for a in s.find_all("a", href=True):
@@ -24,6 +25,9 @@ def generic(name, url, region):
         if re.search(r"登录|注册|下载|关于|联系|隐私|版权|广告|订阅|Subscribe|Privacy|Terms|Cookie",t): continue
         seen.add(t); out.append({"title":t,"url":h})
     return out[:50]
+def toutiao():
+    d=json.loads(get("https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc"))
+    return [{"title":x["Title"],"url":x.get("Url","")} for x in d.get("data",[])][:50]
 def tophub():
     s = BeautifulSoup(get("https://tophub.today/"), "lxml"); res={}
     for c in s.select(".cc-cd"):

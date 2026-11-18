@@ -16,24 +16,24 @@ main{max-width:1240px;margin:0 auto;padding:18px 24px;display:grid;grid-template
 .card.c中{border-top-color:#e0a21b}.card.c低{border-top-color:#b8c0cc}
 .top{display:flex;justify-content:space-between;font-size:12px;color:#6b7686}
 .hook{font-size:18px;line-height:1.5;font-weight:700;color:#1b2a41}
-.ev{font-size:13px;color:#4a5565;line-height:1.6}
+.story{font-size:14px;color:#2b3547;line-height:1.7}.ev{font-size:12px;color:#8a94a3;line-height:1.6;border-top:1px dashed #e3e8ef;padding-top:8px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}.tag{padding:1px 8px;border-radius:10px;font-size:12px;background:#eaf0f8;color:#2E6DB4}
 .高{background:#dff5e3;color:#1b7a36}.中{background:#fff3d6;color:#9a6a00}.低{background:#eee;color:#666}.需虚构化{background:#fde8e8;color:#b42318}
 .foot{margin-top:auto;font-size:12px;color:#8a94a3;display:flex;justify-content:space-between}.foot a{color:#2E6DB4;text-decoration:none}
 footer{text-align:center;color:#8a94a3;font-size:12px;padding:20px}</style></head><body>
-<header><h1>每日热点库</h1><p>每天自动整理 50 条热点素材卡。钩子与事件描述均不含真实人名、公司名和地名;“可改编性”是分析判断,不是投放数据。</p></header>
+<header><h1>每日热点库</h1><p>每天自动整理 50 条热点素材卡:一句话钩子 + 故事梗概,由真实热点虚构化改编而来,不含真实人名、公司名和地名。故事细节为改编创作,不是新闻事实。</p></header>
 <div class="bar"><select id="d"></select><input id="q" placeholder="搜索"><span id="cats"></span></div>
-<main id="list"></main><footer>数据来源:新浪、凤凰、搜狐、网易、腾讯新闻、TMZ、The Daily Beast、Drudge Report、Bored Panda、今日热榜</footer>
+<main id="list"></main><footer>数据来源:新浪娱乐、中娱网、网易娱乐、腾讯娱乐、今日头条、TMZ、Radar Online、E! News、Bored Panda、今日热榜</footer>
 <script>const D=__DATA__;let cat="全部";const $=i=>document.getElementById(i);
 const ds=Object.keys(D).sort().reverse();$("d").innerHTML=ds.map(x=>`<option>${x}</option>`).join("");
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function draw(){const it=D[$("d").value],q=$("q").value.trim();
 const cs=["全部",...new Set(it.map(x=>x.type))];
 $("cats").innerHTML=cs.map(c=>`<span class="chip ${c==cat?"on":""}" onclick="cat='${c}';draw()">${c}</span>`).join(" ");
-$("list").innerHTML=it.filter(x=>(cat=="全部"||x.type==cat)&&(!q||x.hook.includes(q)||x.event.includes(q))).map(x=>
+$("list").innerHTML=it.filter(x=>(cat=="全部"||x.type==cat)&&(!q||x.hook.includes(q)||x.story.includes(q)||x.event.includes(q))).map(x=>
 `<div class="card c${x.adapt}"><div class="top"><span>#${x.rank}</span><span class="tag ${x.adapt}">可改编性:${x.adapt}</span></div>
-<div class="hook">${esc(x.hook)}</div><div class="ev">${esc(x.event)}</div>
-<div class="tags"><span class="tag">${esc(x.type)}</span><span class="tag">情绪:${esc(x.emotion)}</span><span class="tag">冲突:${esc(x.conflict)}</span>${x.compliance=="需虚构化"?'<span class="tag 需虚构化">需虚构化</span>':""}</div>
+<div class="hook">【${esc(x.hook)}】</div><div class="story">${esc(x.story)}</div><div class="ev">热点原型:${esc(x.event)}</div>
+<div class="tags"><span class="tag">${esc(x.route)}</span><span class="tag">${esc(x.type)}</span><span class="tag">情绪:${esc(x.emotion)}</span><span class="tag">冲突:${esc(x.conflict)}</span>${x.compliance=="需虚构化"?'<span class="tag 需虚构化">需虚构化</span>':""}</div>
 <div class="foot"><span>来源:${esc(x.source)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">查看原文</a></div></div>`).join("")}
 $("d").onchange=()=>{cat="全部";draw()};$("q").oninput=draw;draw();</script></body></html>'''
 (B/"index.html").write_text(html.replace("__DATA__",json.dumps(days,ensure_ascii=False)),encoding="utf8")
