@@ -64,6 +64,12 @@ td textarea{min-height:52px;font-size:13px}
 pre{white-space:pre-wrap;font:12.5px/1.7 ui-monospace,Menlo,monospace;background:#fafbfd;border:1px solid #eef0f4;border-radius:8px;padding:14px;max-height:520px;overflow:auto;margin:0}
 details.pv{margin-top:10px}details.pv summary{cursor:pointer;color:#2E6DB4;font-size:12.5px}
 .plist a{display:block;padding:9px 12px;border-radius:6px;color:#374151;cursor:pointer;text-decoration:none}.plist a.on{background:#f0f6fe;color:#2E6DB4;font-weight:600}
+.roles{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.rc{border:1px solid #eef0f4;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.rc .ph{aspect-ratio:3/4;background:#f5f7fa;position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#9ca3af}.rc .ph img{width:100%;height:100%;object-fit:cover;object-position:top}
+.rc .chg{position:absolute;right:8px;bottom:8px;background:#fffffff0;color:#2E6DB4;font-size:12px;padding:3px 9px;border-radius:12px;cursor:pointer}
+.rc.empty{border-style:dashed}.up2{cursor:pointer}.up2 span{font-size:30px;line-height:1}.up2 em{font-style:normal;font-size:12px;margin-top:4px}
+.rc .ri{padding:10px 12px;font-size:13px;line-height:1.6}.rc .ri .muted{font-size:12px}
+@media(max-width:900px){.roles{grid-template-columns:repeat(2,1fr)}}
 iframe{width:100%;height:calc(100vh - 110px);border:0}
 .ok{color:#1b7a36;font-weight:600}
 </style></head><body>
@@ -78,7 +84,10 @@ const S={origin:{step:0,sample:0,lang:"中文",dur:30,cap:5,hooks:[],ver:null,ed
          viral:{step:0,sample:1,dur:30,gen:0,mirror:[],edits:null}};
 function nav(){$("#nav").innerHTML=TABS.map(([k,n])=>`<a class="${k==tab?"on":""}" onclick="tab='${k}';render()">${n}</a>`).join("")}
 function steps(names,cur,key){return `<div class="steps">`+names.map((n,i)=>`<div class="st ${i<cur?"done":i==cur?"now":""}" onclick="if(${i}<=${cur}){S.${key}.step=${i};render()}"><i>${i<cur?"✓":i+1}</i>${n}</div>`).join("")+`</div>`}
-function av(id,size){return `<div class="av" style="background:${D.colors[id]};${size?`width:${size}px;height:${size}px;font-size:${size/2.8}px`:""}">${id}</div>`}
+let CUR=null;const UP={};
+function img(id){const k=(CUR?CUR.id:"")+id;if(UP[k])return UP[k];const r=CUR&&CUR.roles.find(x=>x.id==id);return r&&r.img}
+function av(id,size){const z=size||46,u=img(id);return u?`<img class="av" src="${u}" style="width:${z}px;height:${z}px;object-fit:cover;object-position:top">`:`<div class="av" style="background:${D.colors[id]||"#9ca3af"};width:${z}px;height:${z}px;font-size:${z/2.8}px">${id}</div>`}
+function upRole(k,inp){const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=e=>{UP[k]=e.target.result;render()};r.readAsDataURL(f)}
 function pv(k){return `<details class="pv"><summary>查看本步提示词 ${k}</summary><pre>${esc(D.prompts[k])}</pre></details>`}
 function sampleSel(st){return D.samples.map((s,i)=>`<span class="pill ${st.sample==i?"on":""}" onclick="S.${st===S.origin?"origin":"viral"}.sample=${i};render()">${esc(s.name)}</span>`).join("")}
 function cur(st){return D.samples[st.sample]}
@@ -88,11 +97,11 @@ function origin(){const st=S.origin,s=cur(st);let h=steps(["上传原片","分�
 if(st.step==0){h+=`<div class="card"><h3>上传原片</h3><div class="up"><b>点击或拖入原片视频</b><div class="muted" style="margin-top:6px">不超过 25 分钟 · 来源:kalos 剧库 / 导入司南 / 本地上传</div><div class="muted" style="margin-top:14px">演示用原片</div><div class="opt">${sampleSel(st)}</div></div>
 <div class="grid3" style="margin-top:18px"><div><label class="f">前贴目标语言</label><select onchange="S.origin.lang=this.value">${["中文","英语","西班牙语","葡萄牙语","日语"].map(x=>`<option ${x==st.lang?"selected":""}>${x}</option>`).join("")}</select></div>
 <div><label class="f">前贴时长(秒)</label><select onchange="S.origin.dur=+this.value">${[10,15,20,30].map(x=>`<option ${x==st.dur?"selected":""}>${x}</option>`).join("")}</select></div>
-<div><label class="f">主要角色上限</label><select onchange="S.origin.cap=+this.value">${[3,4,5].map(x=>`<option ${x==st.cap?"selected":""}>${x}</option>`).join("")}</select></div></div>
+<div><label class="f">主要角色上限</label><input type="text" value="5 个(默认)" disabled></div></div>
 <div class="grid2" style="margin-top:14px"><div><label class="f">处理的集数</label><input type="text" value="第1集"></div><div><label class="f">投放后台标签(选填)</label><input type="text" placeholder="二创模版、剧ID、素材指派组等"></div></div></div>
 <div class="acts"><button class="btn" onclick="S.origin.step=1;render()">开始分析</button></div>`}
 if(st.step==1){const a=s.analysis;h+=`<div class="card"><h3>原片分析 · ${esc(s.name)} <span class="muted">${esc(s.meta)}</span></h3><dl class="kv">${["一句话剧情","核心冲突","男女主人设","身份反差","原片主题","最大卖点","原片开头"].map(k=>`<dt>${k}</dt><dd>${esc(a[k])}</dd>`).join("")}<dt>衔接点</dt><dd>${a["衔接点"].map(esc).join("<br>")}</dd><dt>需人工复核</dt><dd>${a["不确定项"].map(x=>"· "+esc(x)).join("<br>")}</dd></dl>${pv("P-A")}</div>
-<div class="card"><h3>角色与资产图 <span class="muted">共 ${s.roles.length} 个主要角色</span></h3><div class="grid3">${s.roles.map(r=>`<div class="role">${av(r.id)}<div><div><b>角色${r.id}</b> <span class="tag">${esc(r.pos)}</span><span class="tag ${r.conf=="高"?"g":"y"}">把握:${r.conf}</span></div><div class="muted" style="margin-top:4px">名字:${esc(r.name)} · ${esc(r.identity)}</div><div class="muted">${esc(r.look)}</div><div class="muted">出镜:${esc(r.times)}</div></div></div>`).join("")}</div></div>
+<div class="card"><h3>角色与资产图 <span class="muted">主要角色上限 5 个,已识别 ${s.roles.length} 个</span></h3><div class="roles">${s.roles.map(r=>`<div class="rc"><div class="ph">${img(r.id)?`<img src="${img(r.id)}">`:""}<label class="chg">更换<input type="file" accept="image/*" hidden onchange="upRole('${s.id+r.id}',this)"></label></div><div class="ri"><div><b>角色${r.id}</b> <span class="tag">${esc(r.pos)}</span><span class="tag ${r.conf=="高"?"g":"y"}">把握:${r.conf}</span></div><div class="muted">名字:${esc(r.name)}</div><div class="muted">${esc(r.identity)}</div><div class="muted">${esc(r.look)}</div><div class="muted">出镜:${esc(r.times)}</div></div></div>`).join("")}${Array.from({length:5-s.roles.length},(_,i)=>{const id="ABCDE"[s.roles.length+i],k=s.id+id;return `<div class="rc empty"><label class="ph up2">${UP[k]?`<img src="${UP[k]}">`:`<span>+</span><em>上传角色图</em>`}<input type="file" accept="image/*" hidden onchange="upRole('${k}',this)"></label><div class="ri"><div><b>角色${id}</b> <span class="tag y">未识别</span></div><div class="muted">未能从原片提取,可手动上传</div><input type="text" placeholder="角色名字 / 定位" style="margin-top:6px"></div></div>`}).join("")}</div></div>
 <div class="card"><h3>推荐钩子 <span class="muted">来自短剧高光钩子库,可多选,也可以不选</span></h3><div class="grid3">${s.hooks.map((k,i)=>`<div class="hk ${st.hooks.includes(i)?"on":""}" onclick="tg(${i})"><div class="h">【${esc(k.hook)}】</div><div class="t">《${esc(k.title)}》</div><div class="muted" style="margin-top:6px">${esc(k.why)}</div></div>`).join("")}</div>${pv("P-R")}</div>
 <div class="acts"><button class="btn ghost" onclick="S.origin.step=0;render()">上一步</button><button class="btn" onclick="S.origin.step=2;render()">生成创作思路</button></div>`}
 if(st.step==2){h+=`<div class="grid3">${s.versions.map((v,i)=>`<div class="ver ${st.ver===i?"on":""}" onclick="S.origin.ver=${i};S.origin.edits=null;render()"><div class="muted">${v.name} ${v.recommend?'<span class="tag g">推荐</span>':""}</div><div class="tt">【${esc(v.title)}】</div><div><span class="tag">${esc(v.route)}</span></div><div class="muted">钩子:${esc(v.hook_type)} · 吸引力 <span class="score">${v.score}</span> 分</div><div style="line-height:1.6">${esc(v.summary)}</div><div class="muted"><b>放大卖点</b>:${esc(v.sell)}</div><div class="muted"><b>衔接</b>:${esc(v.link.way)}<br>${esc(v.link.end)}</div><div style="display:flex;gap:6px;align-items:center">${v.cast.map(c=>av(c,28)).join("")}<span class="muted">出场角色</span></div></div>`).join("")}</div>${pv("P-C")}
@@ -143,7 +152,7 @@ return h}
 let pk="P-A";
 function prompt(){const ks=Object.keys(D.prompts);return `<div style="display:grid;grid-template-columns:200px 1fr;gap:20px"><div class="plist">${ks.map(k=>`<a class="${k==pk?"on":""}" onclick="pk='${k}';render()">${k} ${esc(D.pnames[k])}</a>`).join("")}</div><pre style="max-height:none">${esc(D.prompts[pk])}</pre></div>`}
 
-function render(){nav();let h;
+function render(){nav();let h;CUR=tab=="viral"?cur(S.viral):cur(S.origin);
 if(tab=="lib"){$("#page").innerHTML=`<iframe src="library.html"></iframe>`;return}
 h=tab=="origin"?origin():tab=="viral"?viral():prompt();
 if(tab=="viral"&&S.viral.step==0)h=h.replace("</h3><div class=\"up\"><b>点击或拖入原片视频","</h3><div class=\"up\"><b>点击或拖入原片视频");
