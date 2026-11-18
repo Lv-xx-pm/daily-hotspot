@@ -2,20 +2,8 @@
  "date": "2026-11-18",
  "items": [
   {
-   "hook": "他刚靠一部新片赚了二十三亿,转头,就把自己的影院全卖了",
-   "story": "他刚凭一部新片赚了二十三亿,全行业都在等他乘胜追击。他却在庆功宴第二天,把名下所有影院挂牌出售。有人骂他疯了,他只说:“该下的注,我早就下完了。”",
-   "event": "一位导演刚凭新片拿下高票房,随后出售了名下的影院",
-   "route": "解说词-逆袭",
-   "type": "娱乐",
-   "emotion": "惊讶/好奇",
-   "conflict": "得与失",
-   "adapt": "高",
-   "compliance": "需虚构化",
-   "source": "网易娱乐",
-   "url": "https://www.163.com/dy/article/L92442NA0556888O.html",
-   "rank": 1
-  },
-  {
+   "conflict_point": "少年签约换机会,成年后背上债务,被契约绑住的命运",
+   "video30": "适合:单一人物,签约与对质两个画面即可",
    "hook": "十五岁,他签下一份卖身契;二十七岁,他背上了千万债务",
    "story": "十五岁,他在一份卖身契上按下手印,换来一个出道的机会。十二年后,他红了,账上却是千万债务。他攥着欠条走进老板办公室,只问了一句:“这笔账,我们重新算算。”",
    "event": "一名艺人少年时与公司签下长期合约,成年后背负巨额债务",
@@ -27,9 +15,11 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/LC0NVM9D055616XW.html",
-   "rank": 2
+   "rank": 1
   },
   {
+   "conflict_point": "昔日新星沦为店里打杂,身份落差",
+   "video30": "适合:一个场景,一个反转",
    "hook": "她回到养母开的面馆,却成了谁都能使唤的“工具人”",
    "story": "她曾是人人追捧的新星,如今回到养母的面馆,弯腰收着客人留下的垃圾。没人再认得她,直到一位老客人放下筷子:“这碗面,我吃了十年。”",
    "event": "一名走红过的年轻人回到养母的面馆帮忙,被当作打杂的工具人",
@@ -41,9 +31,11 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/L925D2FO0556BHOF.html",
-   "rank": 3
+   "rank": 2
   },
   {
+   "conflict_point": "无激烈冲突,靠一年前的约定和藏起来的纸条制造悬念",
+   "video30": "适合:一个道具撑起全片",
    "hook": "结婚一周年,他们一起吃下了冻了整整一年的婚礼蛋糕",
    "story": "婚礼那天,他们把最大的一块蛋糕冻进冰箱,约好一年后一起吃。一年后,他拉开冰箱门,发现她早就在蛋糕盒里,藏了一张纸条。",
    "event": "一对夫妻在结婚一周年时,一起吃下冷冻保存一年的婚礼蛋糕",
@@ -55,9 +47,11 @@
    "compliance": "可用",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/L82NKJSE0556IWI7.html",
-   "rank": 4
+   "rank": 3
   },
   {
+   "conflict_point": "被驱逐的创始人与跪求他回来的众人,地位彻底反转",
+   "video30": "适合:雨中楼下一个场景加回家一个画面",
    "hook": "他被赶出公司的第三天,整栋楼的人跪在雨里求他回来",
    "story": "他被董事会赶出亲手创立的公司,所有人都笑他完了。三天后,公司乱成一团,整栋楼的人冒雨跪在楼下求他回来。他没有回头,只说了一句:“先回家。”他推开家门,屋里一片昏暗,他站在门口,嘴角带着胜利后的笑。",
    "event": "某公司创始人离开后,外界呼吁其回归,本人也公开表示愿意回去",
@@ -69,9 +63,11 @@
    "compliance": "需虚构化",
    "source": "榜单·百度贴吧",
    "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369927&topic_name=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%96%8A%E8%AF%9D%E6%84%BF%E5%9B%9E%E8%8B%B1%E4%BC%9F%E8%BE%BE",
-   "rank": 5
+   "rank": 4
   },
   {
+   "conflict_point": "被所有人忽略的东西其实有价值",
+   "video30": "适合:捡与鉴定两个画面",
    "hook": "他在路边,捡到了一堆免费的“瑕疵”瓷器",
    "story": "所有人都从那堆被丢在路边的“瑕疵”瓷器旁路过,只有他蹲下来,翻出了一个底款。他抱着它走进店里,老板的脸,慢慢白了。",
    "event": "一名游客在瓷都的路边,捡到商家丢弃的免费瑕疵瓷器",
@@ -83,9 +79,11 @@
    "compliance": "可用",
    "source": "今日头条",
    "url": "https://www.toutiao.com/trending/7709060304424026121/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%224%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227709060304424026121%22%2C%22hot_board_impr_id%22%3A%2220261118164812A566E598CFCE74427FAC%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B8%B8%E5%AE%A2%E5%9C%A8%E6%99%AF%E5%BE%B7%E9%95%87%E8%B7%AF%E8%BE%B9%E6%8D%A1%E5%85%8D%E8%B4%B9%E7%91%95%E7%96%B5%E7%93%B7%E5%99%A8%22%7D&rank=&style_id=40132&topic_id=7709060304424026121",
-   "rank": 6
+   "rank": 5
   },
   {
+   "conflict_point": "欠债者装作没事,与法律的追上门",
+   "video30": "适合:餐桌前一个场景",
    "hook": "他欠了九十万不还,一次次装作没事,最后,被判了刑",
    "story": "他欠了九十万,每次催收都笑着说:“过两天。”直到法院的人敲开他家的门,他还坐在餐桌前,慢条斯理地吃完了最后一口饭。",
    "event": "一名欠款九十万的人多次违反限制消费令,最终被判刑",
@@ -97,9 +95,11 @@
    "compliance": "可用",
    "source": "今日头条",
    "url": "https://www.toutiao.com/trending/7709367798602186803/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227709367798602186803%22%2C%22hot_board_impr_id%22%3A%2220261118164812A566E598CFCE74427FAC%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%80%81%E8%B5%96%E6%AC%A090%E4%B8%87%E4%B8%8D%E8%BF%98%E5%A4%9A%E6%AC%A1%E8%BF%9D%E5%8F%8D%E9%99%90%E6%B6%88%E4%BB%A4%E8%8E%B7%E5%88%91%22%7D&rank=&style_id=40132&topic_id=7709367798602186803",
-   "rank": 7
+   "rank": 6
   },
   {
+   "conflict_point": "放弃城里的工作,被众人质疑,最后被认可",
+   "video30": "适合:三个画面:辞职、质疑、开席",
    "hook": "二十七岁,他放弃城里的工作,回村摆起了大席,月入过万",
    "story": "二十七岁,他递了辞职信,拖着行李箱回到村里,所有人都说他疯了。直到第一场大席开桌,全村的灯,为他亮了一整夜。",
    "event": "一名二十七岁的年轻人返乡做农村宴席,月收入过万",
@@ -111,9 +111,11 @@
    "compliance": "可用",
    "source": "今日头条",
    "url": "https://www.toutiao.com/trending/7709072235252007474/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227709072235252007474%22%2C%22hot_board_impr_id%22%3A%2220261118164812A566E598CFCE74427FAC%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2227%E5%B2%81%E5%B0%8F%E4%BC%99%E8%BF%94%E4%B9%A1%E5%81%9A%E5%86%9C%E6%9D%91%E5%A4%A7%E5%B8%AD%E6%9C%88%E5%85%A5%E8%BF%87%E4%B8%87%22%7D&rank=&style_id=40132&topic_id=7709072235252007474",
-   "rank": 8
+   "rank": 7
   },
   {
+   "conflict_point": "悬疑:谁划了车胎,陌生女人是谁",
+   "video30": "适合:车旁与监控两个画面",
    "hook": "她的车胎被人划破,监控里,出现了一个神秘女人",
    "story": "她的车胎,一夜之间被人划破。调出监控,画面里站着一个陌生女人,她缓缓抬起头,正对着镜头,笑了笑。",
    "event": "一位歌手称自己的车胎被划破,并公布了一段陌生女人的视频",
@@ -125,23 +127,11 @@
    "compliance": "需虚构化",
    "source": "美国娱乐媒体",
    "url": "https://www.tmz.com/2026/11/17/erica-campbell-shares-video-of-woman-at-house/",
-   "rank": 9
+   "rank": 8
   },
   {
-   "hook": "哥哥想和解,弟弟,拒绝了",
-   "story": "哥哥深夜递来一封和解的信,他只看了一眼,就把信塞回信封,退了回去。门外,哥哥站了很久,才转身离开。",
-   "event": "据称某王室兄弟关系破裂,弟弟拒绝了对方的和解",
-   "route": "设定-身份",
-   "type": "国际娱乐",
-   "emotion": "唏嘘/八卦",
-   "conflict": "亲情/裂痕",
-   "adapt": "高",
-   "compliance": "需虚构化",
-   "source": "欧美八卦网站",
-   "url": "https://radaronline.com/p/prince-william-snubs-prince-harry-peace-offer/",
-   "rank": 10
-  },
-  {
+   "conflict_point": "长久婚姻因一个举动瞬间崩塌",
+   "video30": "适合:一个动作,一个摘戒指的瞬间",
    "hook": "十七年的婚姻,在丈夫做了一件事之后,几秒钟,全完了",
    "story": "他们的婚姻走了十七年。就在今晚,他只做了一件小事。她看着他,几秒钟后,平静地,摘下了婚戒。",
    "event": "一段十七年的婚姻,因丈夫的一个举动瞬间结束",
@@ -153,23 +143,11 @@
    "compliance": "可用",
    "source": "国外趣闻网站",
    "url": "https://www.boredpanda.com/man-discovers-wifes-affair-dyson/",
-   "rank": 11
+   "rank": 9
   },
   {
-   "hook": "五十九个丈夫,各自做了一件,让妻子立刻提出离婚的事",
-   "story": "她只是想问一句,他却做了那件事。她一句话没说,转身收拾行李,把他一个人,留在了原地。",
-   "event": "网友分享了丈夫们做出的、让妻子当场决定离婚的事",
-   "route": "互动-争执",
-   "type": "情感",
-   "emotion": "共鸣/愤怒",
-   "conflict": "婚姻/底线",
-   "adapt": "高",
-   "compliance": "可用",
-   "source": "国外趣闻网站",
-   "url": "https://www.boredpanda.com/craziest-reasons-women-divorced/",
-   "rank": 12
-  },
-  {
+   "conflict_point": "长期忍耐因一件小事爆发",
+   "video30": "适合:办公室一个场景",
    "hook": "他为了一块披萨,当场,辞了职",
    "story": "他在公司干了三年,从不吭声。只因同事偷吃了他的披萨,他当场站起来,把辞职信,拍在了老板的桌上。",
    "event": "网友分享了人们因一些小事当场辞职的经历,其中一例与披萨有关",
@@ -181,9 +159,11 @@
    "compliance": "可用",
    "source": "国外趣闻网站",
    "url": "https://www.boredpanda.com/coworkers-stories/",
-   "rank": 13
+   "rank": 10
   },
   {
+   "conflict_point": "当众指责别人,被对方家长当场打脸",
+   "video30": "适合:一个场面,一句话收尾",
    "hook": "“我是他爸爸。”——五十六个人,当场被打了脸",
    "story": "他当众指责一个孩子,孩子身后的男人慢慢走了出来,只说了一句:“我是他爸爸。”全场安静了。",
    "event": "网友分享了五十六个被当场纠正、打脸的经历",
@@ -195,9 +175,11 @@
    "compliance": "可用",
    "source": "国外趣闻网站",
    "url": "https://www.boredpanda.com/liars-savagely-called-out/",
-   "rank": 14
+   "rank": 11
   },
   {
+   "conflict_point": "反常行为背后的心理,店家与买家的对峙",
+   "video30": "适合:深夜一个场景",
    "hook": "她下单了四百多次,每一单,都申请仅退款,只为“解压”",
    "story": "深夜的客厅里,她一个人,手机亮着。第四百零一单,她又点了申请退款,心里那团火,终于灭了一点。",
    "event": "一名女子反复下单后全部申请仅退款,自称是为了解压",
@@ -209,23 +191,11 @@
    "compliance": "可用",
    "source": "榜单·知乎",
    "url": "https://www.zhihu.com/question/2106047811234030236",
-   "rank": 15
+   "rank": 12
   },
   {
-   "hook": "他回到村里,拍了拍村里的老人,粉丝就涨了四百万",
-   "story": "他把镜头对准村里的老人,没有剧本,没有滤镜。一年后,他的账号涨了四百万粉丝,他却只是低下头,给老人端了碗热汤。",
-   "event": "一名博主回乡拍摄老人的日常,账号随之迅速涨粉",
-   "route": "解说词-逆袭",
-   "type": "社会",
-   "emotion": "温暖/感动",
-   "conflict": "反差/运气",
-   "adapt": "高",
-   "compliance": "可用",
-   "source": "榜单·百度",
-   "url": "https://www.baidu.com/s?wd=%E5%8D%9A%E4%B8%BB%E5%9B%9E%E6%9D%91%E6%8B%8D%E8%80%81%E4%BA%BA%E6%B6%A8%E7%B2%89400%E4%B8%87",
-   "rank": 16
-  },
-  {
+   "conflict_point": "家庭关系突然改变,当事人无所适从",
+   "video30": "适合:产房外一个场景",
    "hook": "二十八岁那天,他抱着刚出生的亲弟弟,笑不出来",
    "story": "二十八岁这天,他站在产房外,看见父亲怀里抱着一个刚出生的婴儿,说:“这是你弟弟。”他张了张嘴,什么都没说出来。",
    "event": "一名二十八岁的男子迎来刚出生的亲弟弟,神情复杂",
@@ -237,23 +207,11 @@
    "compliance": "可用",
    "source": "榜单·百度",
    "url": "https://www.baidu.com/s?wd=28%E5%B2%81%E7%94%B7%E5%AD%90%E6%8A%B1%E7%9D%80%E5%88%9A%E5%87%BA%E7%94%9F%E4%BA%B2%E5%BC%9F%E5%BC%9F%E7%AC%91%E4%B8%8D%E5%87%BA%E6%9D%A5",
-   "rank": 17
+   "rank": 13
   },
   {
-   "hook": "结婚八年,他给她买了整整十个柜子的衣服",
-   "story": "结婚八年,每个纪念日,他都送她一柜子衣服。她说不用了,他却默默打开了一个新柜子,里面挂满了她十年前说过喜欢的款式。",
-   "event": "一名男子结婚八年,为妻子买下装满十个柜子的衣服",
-   "route": "解说词-甜宠",
-   "type": "情感",
-   "emotion": "甜蜜/羡慕",
-   "conflict": "情感/反差",
-   "adapt": "高",
-   "compliance": "可用",
-   "source": "榜单·百度",
-   "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%BB%93%E5%A9%9A8%E5%B9%B4%E7%BB%99%E5%A6%BB%E5%AD%90%E4%B9%B010%E6%9F%9C%E5%AD%90%E8%A1%A3%E6%9C%8D",
-   "rank": 18
-  },
-  {
+   "conflict_point": "子女想戳穿,母亲深信不疑",
+   "video30": "适合:楼下水站与回家两个画面",
    "hook": "妈妈充了五百块,天天拎桶下楼打“富氢水”,我拿去一测——",
    "story": "妈妈每天拎着桶下楼打水,说是“富氢水”,能治百病。他偷偷拿去检测,报告出来那天,他在楼下,坐了很久。",
    "event": "一名子女发现母亲迷信小区的富氢水,亲自检测后发现问题",
@@ -265,9 +223,11 @@
    "compliance": "需虚构化",
    "source": "榜单·微信",
    "url": "https://mp.weixin.qq.com/s?__biz=MzY5MDM3MTIwNQ==&mid=2247484346&idx=1&sn=3db5f0f9e9c9e44bfb88b5a75c373069#rd",
-   "rank": 19
+   "rank": 14
   },
   {
+   "conflict_point": "顾客与商家的对峙",
+   "video30": "适合:一张桌子一个场景",
    "hook": "一千六百元的烤全羊,端上桌,剥了半天,没剥出一两肉",
    "story": "一千六百元的烤全羊端上桌,全桌人都举起了筷子。他一寸一寸地翻,没翻出一两肉。他放下筷子,抬头看向老板。",
    "event": "游客称花一千六百元点的烤全羊几乎没有肉,商家解释是火候过大",
@@ -279,9 +239,11 @@
    "compliance": "可用",
    "source": "榜单·知乎",
    "url": "https://www.zhihu.com/question/2106346811304534022",
-   "rank": 20
+   "rank": 15
   },
   {
+   "conflict_point": "一个赌约,贪心与风险",
+   "video30": "适合:一个场景,倒计时有紧张感",
    "hook": "坚持十秒不呼吸,奖励一百元,每多一秒,奖励翻倍",
    "story": "有人在桌上放了一百块:“十秒不呼吸,它归你,每多一秒,翻一倍。”他深吸一口气,盯着秒针,全场安静了下来。",
    "event": "一个游戏式的赌约:屏住呼吸每多坚持一秒,奖励翻一倍",
@@ -293,23 +255,11 @@
    "compliance": "可用",
    "source": "榜单·知乎",
    "url": "https://www.zhihu.com/question/2104407572514091928",
-   "rank": 21
+   "rank": 16
   },
   {
-   "hook": "一位作家说:AI,让我焦虑到夜不能寐",
-   "story": "他写了一辈子的字,从不怕任何人。直到那天,屏幕里的AI,三分钟,写出了他最得意的那一章。他合上电脑,一整夜没睡。",
-   "event": "一位知名作家表示,顶级付费AI可能让作家失业,令他焦虑",
-   "route": "设定-身份",
-   "type": "科技",
-   "emotion": "焦虑/危机",
-   "conflict": "人/机器",
-   "adapt": "高",
-   "compliance": "需虚构化",
-   "source": "榜单·知乎",
-   "url": "https://www.zhihu.com/question/2106156220977618976",
-   "rank": 22
-  },
-  {
+   "conflict_point": "荒诞的造假被人揭穿",
+   "video30": "适合:放大图片的一个反转",
    "hook": "论文里被当成“肿瘤”的东西,其实,是一块虾滑",
    "story": "论文里那张被标成肿瘤的图,所有人都没看出问题。直到有人把图放大,才发现,那是一块虾滑。",
    "event": "有人发现某医院的论文被曝出由AI生成,配图荒诞,引发对审核的质疑",
@@ -321,9 +271,11 @@
    "compliance": "需虚构化",
    "source": "榜单·腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261118Q0BUWY00",
-   "rank": 23
+   "rank": 17
   },
   {
+   "conflict_point": "车主与厂商,修不起又换不起",
+   "video30": "勉强:偏消费议题,需要加戏剧化处理",
    "hook": "换一块电池的钱,比这辆旧车本身,还值钱",
    "story": "车刚过保,电池就坏了。报价单递过来,他看了三遍:换一块电池,比这辆车,还贵。",
    "event": "早期新能源车陆续过保,电池更换价格超过二手车价格,车主进退两难",
@@ -335,9 +287,11 @@
    "compliance": "可用",
    "source": "榜单·知乎",
    "url": "https://www.zhihu.com/question/2103903193642095044",
-   "rank": 24
+   "rank": 18
   },
   {
+   "conflict_point": "赶飞机的时间压力加价格拉扯",
+   "video30": "适合:车里一个场景",
    "hook": "“几点的飞机?”“七点。”“加五十。”——一场顺风车上的拉扯",
    "story": "“几点的飞机?”“七点。”“加五十。”乘客盯着导航,飞机的倒计时一分一秒在走,他一句话没说,把手机递了过去。",
    "event": "顺风车司机与赶飞机的乘客就加价和出发时间讨价还价",
@@ -349,9 +303,11 @@
    "compliance": "可用",
    "source": "榜单·微信",
    "url": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyNzk5OQ==&mid=2247487490&idx=1&sn=d14bb19a457e96d553311e55b964ba43#rd",
-   "rank": 25
+   "rank": 19
   },
   {
+   "conflict_point": "隐瞒与真相的反转",
+   "video30": "适合:抱起婴儿的结尾瞬间",
    "hook": "所有人都以为那是肌瘤,其实,她怀了一个孩子",
    "story": "她对所有人说,那只是肌瘤。直到那一天,她在镜头前,轻轻抱起了一个婴儿。",
    "event": "一名女艺人被传未婚生子,此前曾把怀孕说成是肌瘤",
@@ -363,37 +319,11 @@
    "compliance": "需虚构化",
    "source": "榜单·微博",
    "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%8A%8A%E5%AD%A9%E5%AD%90%E8%AF%B4%E6%88%90%E6%98%AF%E5%AD%90%E5%AE%AB%E8%82%8C%E7%98%A4%E7%9A%84",
-   "rank": 26
+   "rank": 20
   },
   {
-   "hook": "演出到一半,钢琴家被冻得回后台,加了件羽绒服",
-   "story": "全场安静,聚光灯下,她刚弹到一半,忽然站起身,走回后台。观众以为出了事,她再走出来时,身上多了一件羽绒服。",
-   "event": "一位知名钢琴家在演出中因剧场太冷,中途回后台加穿羽绒服",
-   "route": "互动-争执",
-   "type": "娱乐",
-   "emotion": "好笑/荒诞",
-   "conflict": "预期/现实",
-   "adapt": "高",
-   "compliance": "需虚构化",
-   "source": "榜单·腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261117Q03D8500",
-   "rank": 27
-  },
-  {
-   "hook": "二十一家“幽灵公司”,骗走了银行上亿元",
-   "story": "二十一家公司,二十一间办公室,没有一个员工。银行的钱,却一笔一笔,流了进去。",
-   "event": "二十一家空壳公司骗取银行贷款上亿元,引发风控漏洞的讨论",
-   "route": "解说词-复仇",
-   "type": "社会",
-   "emotion": "惊讶/愤怒",
-   "conflict": "欺骗/漏洞",
-   "adapt": "高",
-   "compliance": "可用",
-   "source": "榜单·腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261117Q03FN600",
-   "rank": 28
-  },
-  {
+   "conflict_point": "童真遇上冰冷的规则",
+   "video30": "适合:灯光秀一个场景",
    "hook": "孩子想对爸爸说一句“我爱你”,却被判了违规",
    "story": "灯光秀亮起的那一刻,孩子指着屏幕上的字,喊出:“爸爸我爱你!”可没过多久,工作人员匆匆赶来,说,这条违规。",
    "event": "一场灯光秀上出现“爸爸我爱你”字样,被判定违规",
@@ -405,9 +335,123 @@
    "compliance": "可用",
    "source": "榜单·百度贴吧",
    "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369925&topic_name=%E7%81%AF%E5%85%89%E7%A7%80%E5%86%99%E7%88%B8%E7%88%B8%E6%88%91%E7%88%B1%E4%BD%A0%E5%88%A4%E8%BF%9D%E8%A7%84",
-   "rank": 29
+   "rank": 21
   },
   {
+   "conflict_point": "明星与观众的对立,迟到后的借口",
+   "video30": "适合:空舞台与出场两个画面",
+   "hook": "全场等了十七分钟,她说,她在找状态",
+   "story": "全场观众正襟危坐,演出时间到了,舞台上却空无一人。十七分钟后,她才走了出来,轻声说:“我在琴房,找状态。”台下,有人缓缓站了起来。",
+   "event": "一位知名钢琴家在重要场馆演出迟到十七分钟,称在琴房找状态",
+   "route": "互动-争执",
+   "type": "娱乐",
+   "emotion": "愤怒/荒诞",
+   "conflict": "明星/观众",
+   "adapt": "高",
+   "compliance": "需虚构化",
+   "source": "榜单·腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20261117Q0B2TJ00",
+   "rank": 22
+  },
+  {
+   "conflict_point": "博主一句话与商家一家人的生计对立",
+   "video30": "适合:手机屏幕与后厨两个画面",
+   "hook": "千万粉博主发了条视频,点名避雷他开了五年的店",
+   "story": "一条视频,一千万人看到。老板握着手机,屏幕里,他开了五年的店,被人从头批到尾。他看了很久,走进后厨,把所有的菜单,一张一张撕了。",
+   "event": "一名千万粉丝的美食博主发视频避雷景区内的一家餐厅",
+   "route": "互动-争执",
+   "type": "社会",
+   "emotion": "同情/看戏",
+   "conflict": "影响力/商家",
+   "adapt": "高",
+   "compliance": "需虚构化",
+   "source": "榜单·腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20261116Q0E50R00",
+   "rank": 23
+  },
+  {
+   "conflict_point": "被压多年的霸凌经历,终于说出口",
+   "video30": "勉强:需交代时间跨度",
+   "hook": "她写了一本小说,书里每一页,都是她挨过的巴掌",
+   "story": "她写了一本小说,没人知道,每一章,都是真的。队里的那一巴掌,那个被栽的赃,她压了十几年,终于,敢发出去。",
+   "event": "一位前运动员写小说,披露队内霸凌经历",
+   "route": "解说词-复仇",
+   "type": "社会",
+   "emotion": "心酸/愤怒",
+   "conflict": "霸凌/揭露",
+   "adapt": "高",
+   "compliance": "需虚构化",
+   "source": "网易娱乐",
+   "url": "https://www.163.com/dy/article/L87ITV450553AOVQ.html",
+   "rank": 24
+  },
+  {
+   "conflict_point": "为爱放弃一切后的现实落差",
+   "video30": "适合:清晨厨房一个场景",
+   "hook": "她为爱嫁进大山,第一天清晨,她就看清了现实",
+   "story": "她为了爱,放下城里的一切,嫁进了大山。第一天清晨,她推开厨房的门,灶台是冷的,米缸,见了底。",
+   "event": "一条短视频记录了为爱嫁入大山、生活拮据的一天",
+   "route": "设定-身份",
+   "type": "情感",
+   "emotion": "心酸/共鸣",
+   "conflict": "爱情/现实",
+   "adapt": "高",
+   "compliance": "可用",
+   "source": "榜单·抖音",
+   "url": "https://www.douyin.com/video/7708707820196016507",
+   "rank": 25
+  },
+  {
+   "conflict_point": "同事的失德行为,打工人要不要开口",
+   "video30": "适合:后厨一个场景",
+   "hook": "他在饭店打寒假工,第一天进后厨,就看见同事,把脚伸进了洗菜的水盆",
+   "story": "他在饭店打寒假工,第一天进后厨,就看见同事,把脚伸进了洗菜的水盆里。他攥着围裙,不知道该不该开口。",
+   "event": "一条短视频称饭店后厨有人在水盆里洗脚",
+   "route": "互动-争执",
+   "type": "社会",
+   "emotion": "愤怒/震惊",
+   "conflict": "良心/利益",
+   "adapt": "高",
+   "compliance": "可用",
+   "source": "榜单·抖音",
+   "url": "https://www.douyin.com/video/7708396425453702026",
+   "rank": 26
+  },
+  {
+   "conflict_point": "闺蜜背叛,当面挑衅",
+   "video30": "适合:派对一个场景",
+   "hook": "她最好的朋友,当着她的面,对她的男朋友抛媚眼",
+   "story": "她刚警告过闺蜜:别再对我男朋友抛媚眼。闺蜜笑着点了点头,转身,又举起了酒杯,朝他走了过去。",
+   "event": "某真人秀中,一位女士警告好友不要对自己的男友调情",
+   "route": "互动-争执",
+   "type": "国际娱乐",
+   "emotion": "好笑/紧张",
+   "conflict": "友情/背叛",
+   "adapt": "高",
+   "compliance": "需虚构化",
+   "source": "美国娱乐新闻台",
+   "url": "https://www.eonline.com/news/1436941/golden-life-luann-de-lesseps-reacts-as-sonja-morgan-flirts-with-boyfriend",
+   "rank": 27
+  },
+  {
+   "conflict_point": "收了钱的人没有出现,满场观众空等",
+   "video30": "适合:空舞台一个画面",
+   "hook": "他收了一万两千块的定金,说好要上台,那晚,他没有出现",
+   "story": "他收了一万两千块的定金,说好那晚上台。观众坐满了,灯亮了,舞台上,始终没有人出现。",
+   "event": "一位喜剧演员被指收取一万二千美元演出费后缺席,被起诉",
+   "route": "互动-争执",
+   "type": "娱乐",
+   "emotion": "愤怒/荒诞",
+   "conflict": "承诺/违约",
+   "adapt": "高",
+   "compliance": "需虚构化",
+   "source": "美国娱乐媒体",
+   "url": "https://www.tmz.com/2026/11/17/faizon-love-sued-allegedly-bailed-on-comedy-show/",
+   "rank": 28
+  },
+  {
+   "conflict_point": "当众被嘲讽后的隐忍与回击",
+   "video30": "适合:一个冲突场面加一句回应",
    "hook": "他认了一个义父,当众被人嘲讽,沉默很久,才终于开口",
    "story": "他当众认了一位老人做义父,转头就被昔日兄弟当面嘲讽,全场哄笑。他一言不发,沉默了三天。第四天,他终于开口,第一句话让整个圈子安静了。",
    "event": "一位知名艺人因收义父被同行嘲讽,事后首次回应",
@@ -419,9 +463,11 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/LC0NVMD3055616XH.html",
-   "rank": 30
+   "rank": 29
   },
   {
+   "conflict_point": "离婚后仍被前夫牵连,想切断却切不断",
+   "video30": "勉强:需要一句话交代前史",
    "hook": "离婚一年后,她还是被前夫,拖进了风波",
    "story": "她以为离婚就能和过去一刀两断。一年后,前夫闯下的祸,却又把她的名字推上热搜。她看着屏幕,低头看了看手指上,那道还没褪去的白印。",
    "event": "一位女艺人离婚一年多后,再次因前夫的事被牵连",
@@ -433,37 +479,11 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/L923PLK10556C4YP.html",
-   "rank": 31
+   "rank": 30
   },
   {
-   "hook": "一场综艺结束,好几位女人,接连宣布离婚",
-   "story": "一场综艺,让她们站上了舞台中央。节目落幕那晚,她们各自回到家,第一件事不是庆祝,而是把压了多年的那份协议,放在了桌上。",
-   "event": "一档女艺人综艺结束后,多位参赛者陆续官宣离婚",
-   "route": "解说词-复仇",
-   "type": "娱乐",
-   "emotion": "震惊/八卦",
-   "conflict": "婚姻/抉择",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "网易娱乐",
-   "url": "https://www.163.com/dy/article/LC0NNAQG0556BZAY.html",
-   "rank": 32
-  },
-  {
-   "hook": "三个女儿,长得像一个模子刻出来的,性格却完全不一样",
-   "story": "三个女儿,长着同一张脸,他永远分不清谁是谁。直到最小的那个开口,说出了一句,只有他和妻子才知道的话。",
-   "event": "一位歌手的三个女儿外貌高度相似,性格却各不相同",
-   "route": "设定-猎奇",
-   "type": "娱乐",
-   "emotion": "好笑/温暖",
-   "conflict": "家庭差异",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "网易娱乐",
-   "url": "https://www.163.com/dy/article/L923MIVH0517RUP3.html",
-   "rank": 33
-  },
-  {
+   "conflict_point": "工作与亲情二选一",
+   "video30": "适合:片场到医院两个画面",
    "hook": "母亲被送进医院,她扔下手里的工作,连夜赶回去",
    "story": "她正在片场拍最关键的一场戏,手机亮了:母亲被送进医院。她脱下戏服,没跟任何人说一声,连夜冲出了片场。",
    "event": "一位艺人得知母亲被送医,中断工作紧急赶回",
@@ -475,65 +495,11 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/L88I3PLL0556C4YP.html",
-   "rank": 34
+   "rank": 31
   },
   {
-   "hook": "一部AI做的短剧,让无数人,为一个朝代意难平",
-   "story": "他只用一部AI做的短剧,让一个被遗忘的朝代,重新站回了所有人面前。评论区一夜之间,全是同一句话:“意难平。”",
-   "event": "一部AI参与制作的古装短剧,引发观众对一段历史的惋惜",
-   "route": "设定-身份",
-   "type": "短剧",
-   "emotion": "遗憾/好奇",
-   "conflict": "历史/遗憾",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "新浪娱乐",
-   "url": "https://k.sina.com.cn/article_1642591402_61e7f4aa01901o25g.html?from=ent&subch=oent",
-   "rank": 35
-  },
-  {
-   "hook": "她偷偷带零食进山修行,第一天,就被全部没收",
-   "story": "她把零食塞满背包,悄悄进了山。第一天,师姐一把拉开拉链,全部没收。她盯着空空的背包,开始了最难熬的一课。",
-   "event": "一名女艺人录制节目时带零食进山,被节目组全部没收",
-   "route": "设定-身份",
-   "type": "娱乐",
-   "emotion": "好笑/可怜",
-   "conflict": "规矩/欲望",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "新浪娱乐",
-   "url": "http://k.sina.com.cn/article_5601366052_m14dde102403301q1ue.html",
-   "rank": 36
-  },
-  {
-   "hook": "她爱上的,是每天陪她排练的那个伴舞",
-   "story": "她是舞台中央的人,他是站在她身后的伴舞。每次转身,她都看见他在。直到有一天,她没再按剧本走位,朝他伸出了手。",
-   "event": "有媒体称一位女歌手与自己的伴舞在恋爱",
-   "route": "解说词-甜宠",
-   "type": "娱乐",
-   "emotion": "八卦/甜",
-   "conflict": "身份差",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "中娱网",
-   "url": "http://news.yule.com.cn/html/202507/357580.html",
-   "rank": 37
-  },
-  {
-   "hook": "爸爸是演员,女儿悄悄长大,今天,正式出道了",
-   "story": "她从小躲在父亲的光环后,从不提自己是谁的女儿。出道那天,她第一次摘下口罩,只说了一句:“这次,我只叫我自己的名字。”",
-   "event": "一位演员的女儿官宣出道,引发网友关注",
-   "route": "设定-身份",
-   "type": "娱乐",
-   "emotion": "好奇/比较",
-   "conflict": "身份/期待",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "今日头条",
-   "url": "https://www.toutiao.com/trending/7709339607524196915/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2215%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227709339607524196915%22%2C%22hot_board_impr_id%22%3A%2220261118164812A566E598CFCE74427FAC%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%99%86%E6%AF%85%E5%A5%B3%E5%84%BF%E8%B4%9D%E5%84%BF%E5%AE%98%E5%AE%A3%E5%87%BA%E9%81%93%22%7D&rank=&style_id=40132&topic_id=7709339607524196915",
-   "rank": 38
-  },
-  {
+   "conflict_point": "有权威的人当众失态被警告",
+   "video30": "适合:镜头前一个场景加警告函",
    "hook": "他是法官,却在镜头前,粗鲁到被官方警告",
    "story": "他是坐在高台上的人,却在镜头前,用最粗鲁的话训斥所有人。视频火遍全网,第二天,一封警告函,放在了他的桌上。",
    "event": "一位法官因在视频里的粗鲁表现走红,被官方发出警告",
@@ -545,9 +511,11 @@
    "compliance": "需虚构化",
    "source": "美国娱乐媒体",
    "url": "https://www.tmz.com/2026/11/17/rude-viral-texas-judge-behavior-warning/",
-   "rank": 39
+   "rank": 32
   },
   {
+   "conflict_point": "一场欢聚后出事,父母要担责",
+   "video30": "勉强:需交代出了什么事",
    "hook": "双胞胎儿子办了一场派对,出了事,父母被起诉了",
    "story": "双胞胎儿子办了一场派对,所有人都玩得很开心。第二天清晨,警察敲开了家门,父母才知道,出事了。",
    "event": "一对双胞胎的家庭派对出事后,父母被提起诉讼",
@@ -559,51 +527,11 @@
    "compliance": "可用",
    "source": "国外趣闻网站",
    "url": "https://www.boredpanda.com/parents-lisa-aubrey-vaughan-arrested-underage-party-bodycam-video/",
-   "rank": 40
+   "rank": 33
   },
   {
-   "hook": "病床前,医护人员,听到了一些不该被听见的秘密",
-   "story": "深夜的病房里,病人拉住护士的手,说出了一个藏了一辈子的秘密。护士怔住了,她认得那个名字。",
-   "event": "医护人员分享了病人在病床前说出的秘密和忏悔",
-   "route": "设定-身份",
-   "type": "生活",
-   "emotion": "好奇/感动",
-   "conflict": "秘密",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "国外趣闻网站",
-   "url": "https://www.boredpanda.com/patient-final-secrets/",
-   "rank": 41
-  },
-  {
-   "hook": "七十三个真实经历,每一个,都像恐怖片",
-   "story": "他从不信那些恐怖故事,直到那一晚,那个声音,在他自己家里,叫出了他的名字。",
-   "event": "网友分享了七十三个让人毛骨悚然的真实经历",
-   "route": "设定-猎奇",
-   "type": "猎奇",
-   "emotion": "害怕/好奇",
-   "conflict": "悬疑",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "国外趣闻网站",
-   "url": "https://www.boredpanda.com/creepy-historical-events-stories/",
-   "rank": 42
-  },
-  {
-   "hook": "五十六条男人发来的短信,离谱到,值得被一直保存",
-   "story": "她收到一条短信,读了三遍。再划开下一条,她笑着笑着,把它们全部截了图,存进了相册。",
-   "event": "外国网站整理了五十六条男性发来的离谱短信",
-   "route": "互动-擦边",
-   "type": "情感",
-   "emotion": "好笑/离谱",
-   "conflict": "男女/沟通",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "国外趣闻网站",
-   "url": "https://www.boredpanda.com/cringey-messages-from-men/",
-   "rank": 43
-  },
-  {
+   "conflict_point": "被淘汰后公开指出遭遇霸凌",
+   "video30": "勉强:需交代节目背景",
    "hook": "被淘汰以后,他们说:我们,遭到了霸凌",
    "story": "他们在舞台上拼尽全力,却被淘汰。下台后,他们对着镜头说:“我们想说的,不止是输赢。”",
    "event": "一档舞蹈节目中被淘汰的选手搭档,公开指出自己遭遇了霸凌",
@@ -615,9 +543,11 @@
    "compliance": "需虚构化",
    "source": "美国娱乐新闻台",
    "url": "https://www.eonline.com/news/1436826/dancing-with-the-stars-harry-shum-jr-jenna-johnson-have-trauma-bond",
-   "rank": 44
+   "rank": 34
   },
   {
+   "conflict_point": "隐瞒的事被一段视频暴露",
+   "video30": "适合:一个动作,一个弹幕画面",
    "hook": "一段中秋短视频,让所有人看出,她又怀孕了",
    "story": "一段普通的中秋视频,她举起杯子,却没有喝。弹幕一条条飘过:“她是不是……”她低下头,轻轻护住了小腹。",
    "event": "一位艺人的妻子因一段节日视频被网友猜测怀了二胎",
@@ -629,77 +559,55 @@
    "compliance": "需虚构化",
    "source": "网易娱乐",
    "url": "https://www.163.com/dy/article/L88JDBFN05528K16.html",
-   "rank": 45
+   "rank": 35
   },
   {
-   "hook": "他是演员,他当年的高考分数,够上顶尖大学",
-   "story": "没人知道他当年的高考分数,直到一张旧成绩单被翻了出来,所有人才发现,他早就能走进最好的大学。",
-   "event": "网友发现一位演员当年的高考成绩可以上顶尖大学",
-   "route": "解说词-隐藏身份",
-   "type": "娱乐",
-   "emotion": "惊讶/反差",
-   "conflict": "身份/反差",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "榜单·微博",
-   "url": "https://s.weibo.com/weibo?q=%E9%9A%BE%E6%80%AA%E9%83%91%E6%81%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E5%8F%AF%E4%BB%A5%E4%B8%8A%E5%A4%8D%E6%97%A6",
-   "rank": 46
-  },
-  {
-   "hook": "一家店,把四件套的进价,直接写在了价签上",
-   "story": "他走进店里,在价签上看见一行小字:进价。老板抬头看他,只说了一句:“我想让你知道,我没赚你的钱。”",
-   "event": "一家连锁超市把床上四件套的进价标出来,引发关注",
-   "route": "解说词-逆袭",
-   "type": "社会",
-   "emotion": "惊讶/好感",
-   "conflict": "商家/顾客",
-   "adapt": "中",
-   "compliance": "需虚构化",
-   "source": "榜单·快手",
-   "url": "https://index.e.kuaishou.com/rank/hotDetail?keyword=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%9B%9B%E4%BB%B6%E5%A5%97%E6%A0%87%E5%87%BA%E8%BF%9B%E4%BB%B7&rankType=1",
-   "rank": 47
-  },
-  {
-   "hook": "他钓上来一条一米八八的巨型海鳗",
-   "story": "他一竿下去,鱼线绷得笔直。周围的人都围了过来,直到水面翻起一道,一米八八的黑影。",
-   "event": "一名游客钓到一条长一米八八的巨型海鳗",
-   "route": "设定-猎奇",
-   "type": "生活",
-   "emotion": "惊讶/猎奇",
-   "conflict": "奇遇",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "榜单·百度",
-   "url": "https://www.baidu.com/s?wd=%E6%B8%B8%E5%AE%A2%E9%92%93%E5%88%B01.88%E7%B1%B3%E5%B7%A8%E5%9E%8B%E6%B5%B7%E9%B3%97",
-   "rank": 48
-  },
-  {
-   "hook": "他写了九十万字,顺手造了一个朝代",
-   "story": "他一个人,写了九十万字,从山河写到官制。最后,他在书页底下,给这个不存在的朝代,盖了个章。",
-   "event": "一名网友写了九十万字,顺手创造出一个虚构朝代",
-   "route": "设定-身份",
-   "type": "文化",
-   "emotion": "佩服/好奇",
-   "conflict": "创作/投入",
-   "adapt": "中",
-   "compliance": "可用",
-   "source": "榜单·百度贴吧",
-   "url": "http://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28369915&topic_name=%E5%90%A7%E5%8F%8B%E7%A0%81%E4%B9%9D%E5%8D%81%E4%B8%87%E5%AD%97%E9%A1%BA%E6%89%8B%E9%80%A0%E4%B8%AA%E6%9C%9D%E4%BB%A3",
-   "rank": 49
-  },
-  {
-   "hook": "六十八位女性,说出了“有丈夫”并不总是好事的原因",
-   "story": "她们每个人,都说过一句:“有丈夫,不总是好事。”今天,她们第一次坐在一起,说出了原因。",
-   "event": "外国网站收集了六十八位女性对婚姻中不如意之处的分享",
+   "conflict_point": "老师与学生的无声对峙,荒诞好笑",
+   "video30": "适合:教室一个场景",
+   "hook": "晚自习铃声一响,整间教室,飘起了烤鱼的香味",
+   "story": "高三晚自习,铃声一响,教室里飘起了烤鱼的香味。班主任推开门,全班一动不动,齐刷刷抬头看着他。",
+   "event": "一个班级在高三晚自习的教室里集体吃烤鱼",
    "route": "互动-争执",
-   "type": "情感",
-   "emotion": "共鸣/好笑",
-   "conflict": "婚姻/现实",
+   "type": "校园",
+   "emotion": "好笑/羡慕",
+   "conflict": "规矩/放纵",
    "adapt": "中",
    "compliance": "可用",
-   "source": "国外趣闻网站",
-   "url": "https://www.boredpanda.com/husbands-making-life-harder/",
-   "rank": 50
+   "source": "榜单·抖音",
+   "url": "https://www.douyin.com/video/7707630315322053604",
+   "rank": 36
+  },
+  {
+   "conflict_point": "机会刚到手,阻碍同时出现",
+   "video30": "勉强:需要简单交代电竞背景",
+   "hook": "刚拿下世界赛的门票,他却可能,去不了了",
+   "story": "他刚帮战队拿下世界赛的门票,通知就来了:他,可能去不了。他攥着手机,队友在背后喊他的名字。",
+   "event": "一名电竞选手刚帮战队拿到世界赛门票,却可能无法出战",
+   "route": "设定-身份",
+   "type": "电竞",
+   "emotion": "遗憾/紧张",
+   "conflict": "机会/阻碍",
+   "adapt": "中",
+   "compliance": "需虚构化",
+   "source": "榜单·微信",
+   "url": "https://mp.weixin.qq.com/s?__biz=MzY4NDI2MTYzNw==&mid=2247485981&idx=1&sn=c8c233b990d200c905134921477430d1#rd",
+   "rank": 37
+  },
+  {
+   "conflict_point": "舞台上的竞争,实力碾压",
+   "video30": "勉强:需要交代节目背景",
+   "hook": "考核舞台上,她一开口,搭档的声音,就被压没了",
+   "story": "考核舞台上,她一开口,搭档的声音,瞬间被压了下去。镜头切到评委席,所有人,都坐直了身子。",
+   "event": "一档选秀节目的考核舞台上,一位选手的声音完全压过了搭档",
+   "route": "互动-争执",
+   "type": "娱乐",
+   "emotion": "惊讶/紧张",
+   "conflict": "竞争/实力",
+   "adapt": "中",
+   "compliance": "需虚构化",
+   "source": "新浪娱乐",
+   "url": "http://k.sina.com.cn/article_6579088986_m18824ee5a03309f3x2.html",
+   "rank": 38
   }
  ]
 }

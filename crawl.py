@@ -24,10 +24,10 @@ def generic(name, url, region):
         if len(t)<minlen or len(t)>90 or t in seen or not h.startswith("http"): continue
         if re.search(r"登录|注册|下载|关于|联系|隐私|版权|广告|订阅|Subscribe|Privacy|Terms|Cookie",t): continue
         seen.add(t); out.append({"title":t,"url":h})
-    return out[:50]
+    return out[:200]
 def toutiao():
     d=json.loads(get("https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc"))
-    return [{"title":x["Title"],"url":x.get("Url","")} for x in d.get("data",[])][:50]
+    return [{"title":x["Title"],"url":x.get("Url","")} for x in d.get("data",[])][:100]
 def tophub():
     s = BeautifulSoup(get("https://tophub.today/"), "lxml"); res={}
     for c in s.select(".cc-cd"):
