@@ -19,9 +19,9 @@ for f in sorted(glob.glob(str(B / "data/hooks-*.json"))):
 
 html = r'''<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>短剧钩子库</title><style>
-body{font-family:-apple-system,"PingFang SC",sans-serif;margin:0;background:#f2f5fa;color:#222}
-header{background:#2E6DB4;color:#fff;padding:20px 24px}h1{margin:0;font-size:22px}header p{margin:6px 0 0;opacity:.88;font-size:13px;line-height:1.6}
-.bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 24px;background:#fff;border-bottom:1px solid #e3e8ef;align-items:center;position:sticky;top:0;z-index:2}
+body{font-family:-apple-system,"PingFang SC",sans-serif;margin:0;background:#fff;color:#222}
+header{background:#fff;color:#1f2937;padding:18px 24px 6px}h1{margin:0;font-size:20px}header p{margin:6px 0 0;opacity:.88;font-size:13px;line-height:1.6}
+.bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 24px;background:#fff;border-bottom:1px solid #eef0f4;align-items:center;position:sticky;top:0;z-index:2}
 select,input{padding:6px 10px;border:1px solid #cfd7e3;border-radius:6px;font-size:14px}
 .chip{padding:4px 12px;border-radius:14px;background:#eaf0f8;cursor:pointer;font-size:13px;white-space:nowrap}.chip.on{background:#2E6DB4;color:#fff}
 .wrap{max-width:1240px;margin:0 auto;padding:18px 24px}
@@ -31,7 +31,7 @@ select,input{padding:6px 10px;border:1px solid #cfd7e3;border-radius:6px;font-si
 .row i{display:block;height:8px;background:#2E6DB4;border-radius:4px}.row b{font-weight:500;color:#6b7686}
 .big{font-size:26px;font-weight:700;color:#1b2a41}.sub{font-size:12px;color:#6b7686;margin-top:4px;line-height:1.6}
 main{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:14px}
-.card{background:#fff;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:9px;box-shadow:0 1px 3px #0001;border-top:4px solid #2E6DB4}
+.card{background:#fff;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:9px;border:1px solid #eef0f4;border-top:3px solid #2E6DB4}
 .card.c中{border-top-color:#e0a21b}.card.c低{border-top-color:#b8c0cc}
 .top{display:flex;justify-content:space-between;font-size:12px;color:#6b7686}
 .hook{font-size:17px;line-height:1.55;font-weight:700;color:#1b2a41}
@@ -63,5 +63,5 @@ $("list").innerHTML=it.filter(x=>(cat=="全部"||x.route==cat)&&(!q||x.hook.incl
 <div class="v30"><b>30秒前贴</b>:${esc(x.video30)}</div>
 <div class="foot"><a href="${esc(x.url)}" target="_blank" rel="noopener">官网查看 →</a></div></div>`).join("")}
 $("d").onchange=()=>{cat="全部";draw()};$("q").oninput=draw;draw();</script></body></html>'''
-(B / "index.html").write_text(html.replace("__DATA__", json.dumps(days, ensure_ascii=False)), encoding="utf8")
+(B / "library.html").write_text(html.replace("__DATA__", json.dumps(days, ensure_ascii=False)), encoding="utf8")
 print("ok", list(days))
